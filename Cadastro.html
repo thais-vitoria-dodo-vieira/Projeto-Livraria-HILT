@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fazer Cadastro</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      
+      <form
+        action="#"
+        class="border border-black p-3 w-50 m-auto text-center bg-warning rounded-3 "
+        method="post"
+      >
+        <h1>Fomulario de Cadastro</h1>
+        
+        <div>
+          <label for="inputEmail" class="form-label">Email</label>
+          <input
+            type="email"
+            name="Email"
+            id="inputEmail"
+            class="form-control text-center bg-warning text-dark"
+          />
+        </div>
+         <div>
+          <label for="inputSenha" class="form-label">Senha</label>
+          <input
+            type="Senha" 
+            name="Senha"
+            id="inputSenha"
+            class="form-control text-center bg-warning text-dark"
+          />
+        </div>
+        
+        <div class="mt-2">
+          <label for="inputSobre" class="form-label">Sobre</label>
+          <textarea
+            name="sobre"
+            id="inputSobre"
+            cols="30"
+            rows="5"
+            class="form-control text-center bg-warning text-dark"
+            placeholder="Escreva Sobre Você"
+          ></textarea>
+        </div>
+        
+        <div class="mt-2">
+          <label for="inputCidade" class="form-label">Cidade</label>
+          <select
+            name="Cidade"
+            id="inputCidade"
+            class="form-select bg-warning text-dark text-center"
+          >
+            <option selected disabled>Escolha a Sua Cidade</option>
+            <option value="Fortaleza">Fortaleza</option>
+            <option value="Caucaia">Caucaia</option>
+            <option value="América do Norte">América do Norte</option>
+
+          </select>
+        </div>
+       
+        <div class="mt-2">
+          <label for="inputConhecimentos" class="form-label"
+            >Qual seu idioma?</label
+          ><br>
+          <div class="form-check-inline">
+            <input type="checkbox" name="" id="" />
+            <label for="" class="form-check-label">Inglês</label>
+          </div>
+          <div class="form-check-inline">
+            <input type="checkbox" name="" id="" />
+            <label for="" class="form-check-label">Português</label>
+          </div>
+        </div>
+        
+        <button type="submit" class="btn btn-dark my-2">ENVIAR</button>
+      </form>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+     
+    ></script>
+  </body>
+</html>
