@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livraria HILT</title>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria de livros</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"/>
-</head>
-<body>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-info">
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container-fluid">
         <a href="index.html" class="navbar-brand">
@@ -30,7 +36,7 @@
                 <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
                 <li class="nav-item"><a class="nav-link" href="Historia_Ceo_Thais_V_D_Vieira.html">História da Livraria HILT e a Ceo Thaís V. D. Vieira</a></li>
 
-               <li class="nav-item dropdown">
+                <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -49,6 +55,8 @@
                 </li>
               </ul>
             </li>
+               
+             
 
                 </li>
                 <li class="nav-item"><a class="nav-link" href="EntreEmContato.html">Entre Contato Conosco </a></li>
@@ -56,8 +64,6 @@
                 <li class="nav-item"><a class="nav-link" href="Rastreamento+Produto.html">Rastrear seu pedido</a></li>
                 <li class="nav-item"><a class="nav-link" href="Cadastro.html">Fazer Cadastro</a></li>
                 <li class="nav-item"><a class="nav-link" href="LocalizacaoDeLojasFisicas.html">Localização de lojas Físicas</a></li>
-
-
 
             </ul>
             <!-- Busca e botão à direita -->
@@ -72,14 +78,136 @@
         </div>
     </div>
 </nav>
-<!-- Footer está aqui -->
-    <footer class="bg-dark text-white mt-5 py-4">
+
+
+    <!-- Container principal -->
+    <div class="container mt-5">
+      <!-- Título centralizado -->
+      <h1 class="text-center mb-4">Livros da Sophie Kinsella</h1>
+      <!-- Grid de imagens com espaçamento -->
+      <div class="row justify-content-center g-5">
+        <!-- Cada imagem: 100% celular, 50% tablet, 33% desktop -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <img
+            src="IMAGEM/1_Avaliacao_Savannah_Clarke.png"
+            class="d-block w-75"
+            alt="Imagem 1">
+            <h6><strong>Cliente : Savannah Clarke</strong><br/></h6>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="#">👍</a></button>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="#">👎</a></button>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="#">Ver Perfil</a></button>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="1_Avaliacao_Savannah_Clarke.html">Ver Imagem</a></button>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <img
+            src="https://m.media-amazon.com/images/I/71V091cci+L._SL1500_.jpg"
+            class="d-block w-75"
+            alt="Imagem 2">
+            <h6><strong>Livro O burnout</strong><br />Páginas 396</h6>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Comprar</a></button>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Ver mais</a></button>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <img
+            src="https://m.media-amazon.com/images/I/71JK2JfCGFL._SL1500_.jpg"
+            class="d-block w-75"
+            alt="Imagem 3">
+            <h6><strong>Livro A penetra </strong><br />Páginas 352</h6>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Comprar</a></button>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Ver mais</a></button>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <img
+            src="https://m.media-amazon.com/images/I/81Pcj0OkLNL._SL1500_.jpg"
+            class="d-block w-75"
+            alt="Imagem 4">
+            <h6><strong>Livro Fiquei com o seu número</strong><br />Páginas 458</h6>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Comprar</a></button>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Ver mais</a></button>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <img
+            src="https://m.media-amazon.com/images/I/71FLr0wYI7L._SL1500_.jpg"
+            class="d-block w-75"
+            alt="Imagem 5">
+             <h6><strong>Livro Lembra de mim? </strong><br />Páginas 404</h6>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Comprar</a></button>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Ver mais</a></button>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <img
+            src="https://m.media-amazon.com/images/I/81Ykz0pSaTL._SL1500_.jpg"
+            class="d-block w-75"
+            alt="Imagem 6">
+            <h6><strong>Livro Minha vida (não tão) perfeita</strong><br />Páginas 445</h6>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Comprar</a></button>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Ver mais</a></button>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <img
+            src="https://m.media-amazon.com/images/I/71MbnLU+0wL._SL1500_.jpg"
+            class="d-block w-75"
+            alt="Imagem 7">
+            <h6><strong>Livro À procura de Audrey </strong><br />Páginas 323</h6>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Comprar</a></button>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Ver mais</a></button>
+             
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <img
+            src="https://m.media-amazon.com/images/I/81RETLu-XFL._SL1500_.jpg"
+            class="d-block w-75"
+            alt="Imagem 8">
+            <h6><strong>Livro O segredo de Emma Corrigan</strong><br />Páginas 395</h6>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Comprar</a></button>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Ver mais</a></button>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <img
+            src="https://m.media-amazon.com/images/I/61hE0gIgSSL._SL1500_.jpg"
+            class="d-block w-75"
+            alt="Imagem 9">
+            <h6><strong>Livro Menina de vinte</strong><br />Páginas 496</h6>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Comprar</a></button>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Ver mais</a></button>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <img
+            src="https://m.media-amazon.com/images/I/61rreS6aoWL._SL1500_.jpg"
+            class="d-block w-75"
+            alt="Imagem 10">
+            <h6><Strong>Livro Louca para casar</Strong><br/>Autora Madeleine Wickham conhecida pelo pseudônimo Sophie Kinsella<br />Páginas 352</h6>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Comprar</a></button>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Ver mais</a></button>
+        </div>
+         <div class="col-12 col-md-6 col-lg-3">
+          <img
+            src="https://m.media-amazon.com/images/I/81DtR6RguKL._SL1500_.jpg"
+            class="d-block w-75"
+            alt="Imagem 1">
+            <h6><strong>Livro Amar é relativo</strong><br/>Página 418</h6>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Comprar</a></button>
+             <button type="button" class="btn btn-primary"><a class="text-white" href="Produtos+Livros.html">Ver mais</a></button>
+
+        </div>
+      </div>
+    </div>
+    <!-- Footer está aqui -->
+  <footer class="bg-dark text-white mt-5 py-4">
         <div class="container">
             <p class="mb-0 text-center">© 2025 Home In Love Tower (HILT) - Todos os direitos reservados</p>
         </div>
-    </footer>
-    
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+  </footer>
 
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
